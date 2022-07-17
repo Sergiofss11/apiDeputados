@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+p {
+  margin-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.depNome {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.depNome a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.depPartido {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.depFoto {
+  width: 170px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.depEstado {
+  font-weight: bolder;
+}
+
+.botaoEstado {
+    margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.deputados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+#deputado {
+  background-color: #9f7159;
+  display: flex;
+  width: 30em;
+  padding: 10px 40px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#deputado h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
+
+#deputado h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.card {
+    min-width: 20em;
+    max-width: 20em !important;
+    margin-bottom: 20px;
+}
+
+.card-image:first-child img {
+  max-height: 20em;
+}
+
+#partido {
+  font-size: 25px;
+  font-weight: 900;
+}

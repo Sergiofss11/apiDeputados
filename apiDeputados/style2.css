@@ -1,0 +1,25 @@
+.card-dep {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+.card-dep .card {
+  margin-top: 40px;
+}
+
+.card-dep .card .card-content .media-left {
+  min-width: 21em;
+}
+
+.card-dep .card .card-content .media img {
+  min-width: 21em;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-bar-icons i{
+  font-size: 30px;
+}

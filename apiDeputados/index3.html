@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Despesas</title>
+</head>
+<body>
+    
+    <div class="card-table">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure id="image is-96x96">
+                            
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p id="title is-4"></p>
+                        <p id="totalDespesa"></p>
+                        <p id="subtitle is-6">${dep.partido} | ${dep.estado}</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th><abbr title="Ano">Ano</abbr></th>
+                                <th>Documento</th>
+                                <th><abbr title="Valor">Valor</abbr></th>
+                                <th><abbr title="Link do Documento">Link do Documento</abbr></th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th><abbr title="Ano">Ano</abbr></th>
+                                <th>Documento</th>
+                                <th><abbr title="Valor">Valor</abbr></th>
+                                <th><abbr title="Link do Documento">Link do Documento</abbr></th>
+                            </tr>
+                        </tfoot>
+                        <tbody id="table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container">
+                    <div class="actual-page"><b>Pagina Atual: 1</b></div>
+                    <div id="pagination-wrapper">
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="./script3.js"></script>
+</body>
+</html>

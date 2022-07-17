@@ -1,0 +1,16 @@
+.card-part {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+.card-part .card {
+  margin-top: 40px;
+}
+
+.card-part .card .card-content .media-left {
+  min-width: 13em;
+}
+
+.card-part .card .card-content .media .media-left img {
+  min-width: 13em;
+}

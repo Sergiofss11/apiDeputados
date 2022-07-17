@@ -1,0 +1,15 @@
+.card-unde {
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+.card-unde .card {
+  margin-top: 40px;
+  max-height: 35em;
+}
+
+.card-unde .card .card-image img {
+  min-width: 21em;
+  height: auto !important;
+  pointer-events: none;
+}

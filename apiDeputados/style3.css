@@ -1,0 +1,39 @@
+.card-table {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+.card-table .card {
+  margin-top: 40px;
+}
+
+.card .media:not(:last-child) {
+  margin-bottom: 2em !important;
+}
+
+.table tr:hover {
+  background-color: #485fc7;
+  color: #fff !important;
+}
+
+.table tr:hover a {
+  color: #fff !important;
+}
+
+.table tr:hover th {
+  color: #fff !important;
+}
+
+#pagination-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.actual-page {
+  font-size: 20px;
+}
