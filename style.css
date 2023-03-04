@@ -5,11 +5,16 @@ p {
   margin-bottom: 0px;
 }
 
+body {
+  max-width: 100%;
+}
+
 .menu {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .depNome {
@@ -36,10 +41,6 @@ p {
 
 .depEstado {
   font-weight: bolder;
-}
-
-.botaoEstado {
-    margin-right: 10px;
 }
 
 .info {
@@ -91,4 +92,119 @@ h6 {
 #partido {
   font-size: 25px;
   font-weight: 900;
+}
+
+.depnav {
+  height: 100px;
+  padding: 0px 100px;
+}
+
+.logo {
+  color: #fff !important;
+}
+
+.footer {
+  background-color: black !important;
+ }
+
+.center-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-img {
+  margin-right: 11px;
+}
+
+.footer-img:last-of-type {
+  margin-right: 0px;
+}
+
+.custom-shape-divider-top-1658536356 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 100px;
+}
+
+.custom-shape-divider-top-1658536356 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 165px;
+}
+
+.custom-shape-divider-top-1658536356 .shape-fill {
+  fill: #485FC7;
+}
+
+.is-big {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .is-big {
+    font-size: 1rem !important;
+  }
+
+  .depnav {
+    height: 100px;
+    padding: 0px 0px;
+  }
+
+  .custom-shape-divider-top-1658536356 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: 98px;
+  }
+
+  .custom-shape-divider-top-1658536356 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 165px;
+  }
+
+  .deputados {
+    padding: 20px 0px;
+    justify-content: none;
+    justify-items: center;
+  }
+
+  .card {
+    min-width: 90%;
+    max-width: 90% !important;
+    margin-bottom: 50px !important;
+    margin: 0 auto;
+  }
+
+  .card-image:first-child img {
+    max-height: 20em;
+  }
+}
+
+.copy {
+  text-decoration: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.foot {
+  text-decoration: white;
+  font-size: 25px;
+  font-weight: bold;
 }
